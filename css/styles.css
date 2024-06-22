@@ -14,5 +14,16 @@ body a {
   text-decoration: none;
   transition: 0.4s;
 }
+body i {
+  color: blue;
+}
+body ul {
+  list-style: nome;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=styles.css.map */
