@@ -46,5 +46,39 @@ body ul {
 .header-navbar ul li a:hover {
   color: #20C997;
 }
+.header-social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.header-social-media li {
+  margin: 0 1rem;
+}
+.header-social-media li a:hover {
+  color: #FFF;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.gallery-card {
+  width: 25%;
+  height: 400px;
+  margin: 4%;
+}
+.gallery-card-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
